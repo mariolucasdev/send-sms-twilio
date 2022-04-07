@@ -86,7 +86,7 @@ class Sms {
   {
     $phone = str_replace(['(', ')', '-', ' ', '+'], '', $phone);
     if(strlen($phone) < 13):
-      echo 'O formato de telefone inválido. Entre conforme o ex.: 5587999999999';
+      //echo 'O formato de telefone inválido. Entre conforme o ex.: 5587999999999';
       return false;
     endif;
     return '+'.$phone;
