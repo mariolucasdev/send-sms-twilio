@@ -1,0 +1,20 @@
+{
+    "name": "mariolucas/twilio-sms",
+    "autoload": {
+        "psr-4": {
+            "Mariolucas\\TwilioSms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mariolucasdev",
+            "email": "mariolucasdev@gmail.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^6.35"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
