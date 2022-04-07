@@ -12,7 +12,7 @@ git clone https://github.com/mariolucasdev/send-sms-twilio.git
 composer install
 ```
 
-### Setup Contants to use
+### Setup to use
 
 1 - Create your accoun in https://www.twilio.com/pt-br/
 
